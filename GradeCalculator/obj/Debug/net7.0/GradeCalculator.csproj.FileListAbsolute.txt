@@ -1,0 +1,15 @@
+/home/natnael/Documents/projects/GradeCalculator/bin/Debug/net7.0/GradeCalculator
+/home/natnael/Documents/projects/GradeCalculator/bin/Debug/net7.0/GradeCalculator.deps.json
+/home/natnael/Documents/projects/GradeCalculator/bin/Debug/net7.0/GradeCalculator.runtimeconfig.json
+/home/natnael/Documents/projects/GradeCalculator/bin/Debug/net7.0/GradeCalculator.dll
+/home/natnael/Documents/projects/GradeCalculator/bin/Debug/net7.0/GradeCalculator.pdb
+/home/natnael/Documents/projects/GradeCalculator/obj/Debug/net7.0/GradeCalculator.csproj.AssemblyReference.cache
+/home/natnael/Documents/projects/GradeCalculator/obj/Debug/net7.0/GradeCalculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/natnael/Documents/projects/GradeCalculator/obj/Debug/net7.0/GradeCalculator.AssemblyInfoInputs.cache
+/home/natnael/Documents/projects/GradeCalculator/obj/Debug/net7.0/GradeCalculator.AssemblyInfo.cs
+/home/natnael/Documents/projects/GradeCalculator/obj/Debug/net7.0/GradeCalculator.csproj.CoreCompileInputs.cache
+/home/natnael/Documents/projects/GradeCalculator/obj/Debug/net7.0/GradeCalculator.dll
+/home/natnael/Documents/projects/GradeCalculator/obj/Debug/net7.0/refint/GradeCalculator.dll
+/home/natnael/Documents/projects/GradeCalculator/obj/Debug/net7.0/GradeCalculator.pdb
+/home/natnael/Documents/projects/GradeCalculator/obj/Debug/net7.0/GradeCalculator.genruntimeconfig.cache
+/home/natnael/Documents/projects/GradeCalculator/obj/Debug/net7.0/ref/GradeCalculator.dll

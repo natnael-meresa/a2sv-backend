@@ -1,0 +1,15 @@
+/home/natnael/Documents/projects/A2svBackendTasks/WordFrequencyCount/obj/Debug/net7.0/WordFrequencyCount.csproj.AssemblyReference.cache
+/home/natnael/Documents/projects/A2svBackendTasks/WordFrequencyCount/obj/Debug/net7.0/WordFrequencyCount.GeneratedMSBuildEditorConfig.editorconfig
+/home/natnael/Documents/projects/A2svBackendTasks/WordFrequencyCount/obj/Debug/net7.0/WordFrequencyCount.AssemblyInfoInputs.cache
+/home/natnael/Documents/projects/A2svBackendTasks/WordFrequencyCount/obj/Debug/net7.0/WordFrequencyCount.AssemblyInfo.cs
+/home/natnael/Documents/projects/A2svBackendTasks/WordFrequencyCount/obj/Debug/net7.0/WordFrequencyCount.csproj.CoreCompileInputs.cache
+/home/natnael/Documents/projects/A2svBackendTasks/WordFrequencyCount/bin/Debug/net7.0/WordFrequencyCount
+/home/natnael/Documents/projects/A2svBackendTasks/WordFrequencyCount/bin/Debug/net7.0/WordFrequencyCount.deps.json
+/home/natnael/Documents/projects/A2svBackendTasks/WordFrequencyCount/bin/Debug/net7.0/WordFrequencyCount.runtimeconfig.json
+/home/natnael/Documents/projects/A2svBackendTasks/WordFrequencyCount/bin/Debug/net7.0/WordFrequencyCount.dll
+/home/natnael/Documents/projects/A2svBackendTasks/WordFrequencyCount/bin/Debug/net7.0/WordFrequencyCount.pdb
+/home/natnael/Documents/projects/A2svBackendTasks/WordFrequencyCount/obj/Debug/net7.0/WordFrequencyCount.dll
+/home/natnael/Documents/projects/A2svBackendTasks/WordFrequencyCount/obj/Debug/net7.0/refint/WordFrequencyCount.dll
+/home/natnael/Documents/projects/A2svBackendTasks/WordFrequencyCount/obj/Debug/net7.0/WordFrequencyCount.pdb
+/home/natnael/Documents/projects/A2svBackendTasks/WordFrequencyCount/obj/Debug/net7.0/WordFrequencyCount.genruntimeconfig.cache
+/home/natnael/Documents/projects/A2svBackendTasks/WordFrequencyCount/obj/Debug/net7.0/ref/WordFrequencyCount.dll

@@ -1,0 +1,15 @@
+/home/natnael/Documents/projects/A2svBackendTasks/PalindromeCheck/bin/Debug/net7.0/PalindromeCheck
+/home/natnael/Documents/projects/A2svBackendTasks/PalindromeCheck/bin/Debug/net7.0/PalindromeCheck.deps.json
+/home/natnael/Documents/projects/A2svBackendTasks/PalindromeCheck/bin/Debug/net7.0/PalindromeCheck.runtimeconfig.json
+/home/natnael/Documents/projects/A2svBackendTasks/PalindromeCheck/bin/Debug/net7.0/PalindromeCheck.dll
+/home/natnael/Documents/projects/A2svBackendTasks/PalindromeCheck/bin/Debug/net7.0/PalindromeCheck.pdb
+/home/natnael/Documents/projects/A2svBackendTasks/PalindromeCheck/obj/Debug/net7.0/PalindromeCheck.csproj.AssemblyReference.cache
+/home/natnael/Documents/projects/A2svBackendTasks/PalindromeCheck/obj/Debug/net7.0/PalindromeCheck.GeneratedMSBuildEditorConfig.editorconfig
+/home/natnael/Documents/projects/A2svBackendTasks/PalindromeCheck/obj/Debug/net7.0/PalindromeCheck.AssemblyInfoInputs.cache
+/home/natnael/Documents/projects/A2svBackendTasks/PalindromeCheck/obj/Debug/net7.0/PalindromeCheck.AssemblyInfo.cs
+/home/natnael/Documents/projects/A2svBackendTasks/PalindromeCheck/obj/Debug/net7.0/PalindromeCheck.csproj.CoreCompileInputs.cache
+/home/natnael/Documents/projects/A2svBackendTasks/PalindromeCheck/obj/Debug/net7.0/PalindromeCheck.dll
+/home/natnael/Documents/projects/A2svBackendTasks/PalindromeCheck/obj/Debug/net7.0/refint/PalindromeCheck.dll
+/home/natnael/Documents/projects/A2svBackendTasks/PalindromeCheck/obj/Debug/net7.0/PalindromeCheck.pdb
+/home/natnael/Documents/projects/A2svBackendTasks/PalindromeCheck/obj/Debug/net7.0/PalindromeCheck.genruntimeconfig.cache
+/home/natnael/Documents/projects/A2svBackendTasks/PalindromeCheck/obj/Debug/net7.0/ref/PalindromeCheck.dll
