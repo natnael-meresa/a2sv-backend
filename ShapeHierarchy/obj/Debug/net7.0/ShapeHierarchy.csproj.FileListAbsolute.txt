@@ -1,0 +1,15 @@
+/home/natnael/Documents/projects/A2svBackendTasks/ShapeHierarchy/obj/Debug/net7.0/ShapeHierarchy.csproj.AssemblyReference.cache
+/home/natnael/Documents/projects/A2svBackendTasks/ShapeHierarchy/obj/Debug/net7.0/ShapeHierarchy.GeneratedMSBuildEditorConfig.editorconfig
+/home/natnael/Documents/projects/A2svBackendTasks/ShapeHierarchy/obj/Debug/net7.0/ShapeHierarchy.AssemblyInfoInputs.cache
+/home/natnael/Documents/projects/A2svBackendTasks/ShapeHierarchy/obj/Debug/net7.0/ShapeHierarchy.AssemblyInfo.cs
+/home/natnael/Documents/projects/A2svBackendTasks/ShapeHierarchy/obj/Debug/net7.0/ShapeHierarchy.csproj.CoreCompileInputs.cache
+/home/natnael/Documents/projects/A2svBackendTasks/ShapeHierarchy/bin/Debug/net7.0/ShapeHierarchy
+/home/natnael/Documents/projects/A2svBackendTasks/ShapeHierarchy/bin/Debug/net7.0/ShapeHierarchy.deps.json
+/home/natnael/Documents/projects/A2svBackendTasks/ShapeHierarchy/bin/Debug/net7.0/ShapeHierarchy.runtimeconfig.json
+/home/natnael/Documents/projects/A2svBackendTasks/ShapeHierarchy/bin/Debug/net7.0/ShapeHierarchy.dll
+/home/natnael/Documents/projects/A2svBackendTasks/ShapeHierarchy/bin/Debug/net7.0/ShapeHierarchy.pdb
+/home/natnael/Documents/projects/A2svBackendTasks/ShapeHierarchy/obj/Debug/net7.0/ShapeHierarchy.dll
+/home/natnael/Documents/projects/A2svBackendTasks/ShapeHierarchy/obj/Debug/net7.0/refint/ShapeHierarchy.dll
+/home/natnael/Documents/projects/A2svBackendTasks/ShapeHierarchy/obj/Debug/net7.0/ShapeHierarchy.pdb
+/home/natnael/Documents/projects/A2svBackendTasks/ShapeHierarchy/obj/Debug/net7.0/ShapeHierarchy.genruntimeconfig.cache
+/home/natnael/Documents/projects/A2svBackendTasks/ShapeHierarchy/obj/Debug/net7.0/ref/ShapeHierarchy.dll
