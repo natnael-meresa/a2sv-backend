@@ -1,0 +1,15 @@
+/home/natnael/Documents/projects/A2svBackendTasks/TaskManager/bin/Debug/net7.0/TaskManager
+/home/natnael/Documents/projects/A2svBackendTasks/TaskManager/bin/Debug/net7.0/TaskManager.deps.json
+/home/natnael/Documents/projects/A2svBackendTasks/TaskManager/bin/Debug/net7.0/TaskManager.runtimeconfig.json
+/home/natnael/Documents/projects/A2svBackendTasks/TaskManager/bin/Debug/net7.0/TaskManager.dll
+/home/natnael/Documents/projects/A2svBackendTasks/TaskManager/bin/Debug/net7.0/TaskManager.pdb
+/home/natnael/Documents/projects/A2svBackendTasks/TaskManager/obj/Debug/net7.0/TaskManager.csproj.AssemblyReference.cache
+/home/natnael/Documents/projects/A2svBackendTasks/TaskManager/obj/Debug/net7.0/TaskManager.GeneratedMSBuildEditorConfig.editorconfig
+/home/natnael/Documents/projects/A2svBackendTasks/TaskManager/obj/Debug/net7.0/TaskManager.AssemblyInfoInputs.cache
+/home/natnael/Documents/projects/A2svBackendTasks/TaskManager/obj/Debug/net7.0/TaskManager.AssemblyInfo.cs
+/home/natnael/Documents/projects/A2svBackendTasks/TaskManager/obj/Debug/net7.0/TaskManager.csproj.CoreCompileInputs.cache
+/home/natnael/Documents/projects/A2svBackendTasks/TaskManager/obj/Debug/net7.0/TaskManager.dll
+/home/natnael/Documents/projects/A2svBackendTasks/TaskManager/obj/Debug/net7.0/refint/TaskManager.dll
+/home/natnael/Documents/projects/A2svBackendTasks/TaskManager/obj/Debug/net7.0/TaskManager.pdb
+/home/natnael/Documents/projects/A2svBackendTasks/TaskManager/obj/Debug/net7.0/TaskManager.genruntimeconfig.cache
+/home/natnael/Documents/projects/A2svBackendTasks/TaskManager/obj/Debug/net7.0/ref/TaskManager.dll
