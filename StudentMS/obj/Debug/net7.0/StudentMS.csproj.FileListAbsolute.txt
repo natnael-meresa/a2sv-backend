@@ -1,0 +1,15 @@
+/home/natnael/Documents/projects/A2svBackendTasks/StudentMS/obj/Debug/net7.0/StudentMS.csproj.AssemblyReference.cache
+/home/natnael/Documents/projects/A2svBackendTasks/StudentMS/obj/Debug/net7.0/StudentMS.GeneratedMSBuildEditorConfig.editorconfig
+/home/natnael/Documents/projects/A2svBackendTasks/StudentMS/obj/Debug/net7.0/StudentMS.AssemblyInfoInputs.cache
+/home/natnael/Documents/projects/A2svBackendTasks/StudentMS/obj/Debug/net7.0/StudentMS.AssemblyInfo.cs
+/home/natnael/Documents/projects/A2svBackendTasks/StudentMS/obj/Debug/net7.0/StudentMS.csproj.CoreCompileInputs.cache
+/home/natnael/Documents/projects/A2svBackendTasks/StudentMS/bin/Debug/net7.0/StudentMS
+/home/natnael/Documents/projects/A2svBackendTasks/StudentMS/bin/Debug/net7.0/StudentMS.deps.json
+/home/natnael/Documents/projects/A2svBackendTasks/StudentMS/bin/Debug/net7.0/StudentMS.runtimeconfig.json
+/home/natnael/Documents/projects/A2svBackendTasks/StudentMS/bin/Debug/net7.0/StudentMS.dll
+/home/natnael/Documents/projects/A2svBackendTasks/StudentMS/bin/Debug/net7.0/StudentMS.pdb
+/home/natnael/Documents/projects/A2svBackendTasks/StudentMS/obj/Debug/net7.0/StudentMS.dll
+/home/natnael/Documents/projects/A2svBackendTasks/StudentMS/obj/Debug/net7.0/refint/StudentMS.dll
+/home/natnael/Documents/projects/A2svBackendTasks/StudentMS/obj/Debug/net7.0/StudentMS.pdb
+/home/natnael/Documents/projects/A2svBackendTasks/StudentMS/obj/Debug/net7.0/StudentMS.genruntimeconfig.cache
+/home/natnael/Documents/projects/A2svBackendTasks/StudentMS/obj/Debug/net7.0/ref/StudentMS.dll
