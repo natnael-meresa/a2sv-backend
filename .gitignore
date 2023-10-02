@@ -1,0 +1,8 @@
+Migrations
+bin/Debug/net7.0
+.vscode
+obj
+
+/*/Migrations
+/*/bin/Debug/net7.0
+/*/obj
