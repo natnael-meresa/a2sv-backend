@@ -1,10 +1,5 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Domain;
-using Application.Persistance.Repositories;
+using Application;
+using Persistance;
 
 // using Microsoft.OpenApi.Models;
 
@@ -12,12 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 var configuration = builder.Configuration;
 
-builder.Services.AddDbContext<BloggingContext>(options =>
-    options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
-
-
-builder.Services.AddScoped<PostRepository>();
-builder.Services.AddScoped<CommentRepository>();
+builder.Services.ConfigureApplicationServices();
+builder.Services.ConfigurePersistenceServices(configuration);
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

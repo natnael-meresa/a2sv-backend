@@ -1,5 +1,7 @@
-using Application.Persistance.Repositories;
+using Application.DTOs.Post;
+using Application.Features.Posts.Requests.Commands;
 using Domain;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Blog.Controllers;
@@ -8,58 +10,50 @@ namespace Blog.Controllers;
 [Route("api/posts")]
 public class PostController : ControllerBase
 {
-    private readonly PostRepository _postRepository;
+    private readonly IMediator _mediator;
 
-    public PostController(PostRepository postRepository)
+    public PostController(IMediator mediator)
     {
-        _postRepository = postRepository;
+        _mediator = mediator;
     }
 
     [HttpGet]
-    public async  Task<ActionResult> GetAllPosts()
+    public async Task<ActionResult<List<PostDto>>> GetAllPosts()
     {
-        var posts = await _postRepository.GetAllAsync();
+        var posts = await _mediator.Send(new GetPostRequestListRequest());
         return Ok(posts);
     }
 
     [HttpGet("{id}")]
-    public async Task<IActionResult> GetPostById(int id)
+    public async Task<ActionResult<PostDto>> GetPost(int id)
     {
-
-
-        var post = await _postRepository.GetAsync(id);
+        var post = await _mediator.Send(new GetPostRequestDetailsRequest() { Id = id });
         return Ok(post);
 
     }
 
     [HttpPost]
-    public async Task<IActionResult> CreatePost(Post post)
+    public async Task<ActionResult> CreatePost([FromBody] CreatePostDto post)
     {
-        await _postRepository.AddAsync(post);
+        var response = await _mediator.Send(new CreatePostRequestCommand() { CreatePostDto = post });
 
 
-        return CreatedAtAction(nameof(GetPostById), new { id = post.PostId }, post);
+        return Ok(response);
     }
 
     [HttpPut("{id}")]
-    public async Task<ActionResult> UpdatePost(int id, Post post)
+    public async Task<ActionResult> UpdatePost([FromBody] UpdatePostDto post)
     {
-        if (id != post.PostId)
-        {
-            return BadRequest();
-        }
-       
-        await _postRepository.UpdateAsync(post);
-      
-       
+        await _mediator.Send(new UpdatePostRequestCommand() { UpdatePostDto = post });
+
         return NoContent();
     }
 
     [HttpDelete("{id}")]
-    public async Task<IActionResult> DeletePost(int id)
+    public async Task<ActionResult> DeletePost(int id)
     {
-        await _postRepository.DeleteAsync(id);
-        
+        await _mediator.Send(new DeletePostRequestCommand() { Id = id });
+
         return NoContent();
     }
 }

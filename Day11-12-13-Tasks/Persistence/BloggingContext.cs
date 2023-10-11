@@ -1,6 +1,7 @@
+using Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace Domain
+namespace Persistance
 {
     public class BloggingContext : DbContext
     {
@@ -9,6 +10,10 @@ namespace Domain
         {
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(BloggingContext).Assembly);            
+        }
         public DbSet<Post> Posts { get; set; } = null!;
         public DbSet<Comment> Comments { get; set; } = null!;
     }

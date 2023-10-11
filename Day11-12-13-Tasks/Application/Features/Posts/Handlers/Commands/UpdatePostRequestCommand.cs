@@ -1,5 +1,7 @@
 using System.Threading;
 using System.Threading.Tasks;
+using Application.DTOs.Post.Validators;
+using Application.Exceptions;
 using Application.Features.Posts.Requests.Commands;
 using Application.Persistance.Contracts;
 using AutoMapper;
@@ -22,6 +24,12 @@ namespace Application.Features.Posts.Handler.Commands
 
         public async Task<Unit> Handle(UpdatePostRequestCommand request, CancellationToken cancellationToken)
         {
+            var validator = new UpdatePostDtoValidator();
+            var validationResult = await validator.ValidateAsync(request.UpdatePostDto);
+
+            if (validationResult.IsValid == false)
+                throw new ValidationException(validationResult);
+
             var post = _mapper.Map<Post>(request.UpdatePostDto);
             await _postRepository.UpdateAsync(post);
             return Unit.Value;

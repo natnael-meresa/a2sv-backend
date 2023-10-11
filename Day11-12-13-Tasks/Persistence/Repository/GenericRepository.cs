@@ -5,35 +5,35 @@ using System.Threading.Tasks;
 using Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace Application.Persistance.Repositories
+namespace Persistance.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-        private readonly BloggingContext context;
+        private readonly BloggingContext _context;
 
         public GenericRepository(BloggingContext context)
         {
-            this.context = context;
+            _context = context;
         }
 
         public async Task<T> AddAsync(T entity)
         {
-            await context.AddAsync(entity);
-            await context.SaveChangesAsync();
+            await _context.AddAsync(entity);
+            await _context.SaveChangesAsync();
             return entity;
         }
 
         public async Task AddRangeAsync(List<T> entities)
         {
-            await context.AddRangeAsync(entities);
-            await context.SaveChangesAsync();
+            await _context.AddRangeAsync(entities);
+            await _context.SaveChangesAsync();
         }
 
         public async Task DeleteAsync(int id)
         {
             var entity = await GetAsync(id);
-            context.Set<T>().Remove(entity);
-            await context.SaveChangesAsync();
+            _context.Set<T>().Remove(entity);
+            await _context.SaveChangesAsync();
         }
 
         public async Task<bool> Exists(int id)
@@ -44,7 +44,7 @@ namespace Application.Persistance.Repositories
 
         public async Task<List<T>> GetAllAsync()
         {
-            return await context.Set<T>().ToListAsync();
+            return await _context.Set<T>().ToListAsync();
         }
 
         public async Task<T?> GetAsync(int? id)
@@ -53,13 +53,13 @@ namespace Application.Persistance.Repositories
             {
                 return null;
             }
-            return await context.Set<T>().FindAsync(id);
+            return await _context.Set<T>().FindAsync(id);
         }
 
         public async Task UpdateAsync(T entity)
         {
-            context.Update(entity);
-            await context.SaveChangesAsync();
+            _context.Update(entity);
+            await _context.SaveChangesAsync();
         }
     }
 }
